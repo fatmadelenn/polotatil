@@ -1,0 +1,2093 @@
+﻿/*tüm sayfa için geçerli*/
+*{
+	margin: 0;
+	padding: 0;
+
+}
+body{
+	width:100%;
+}
+
+/*header kısmı*/
+header{
+	
+	margin: 0;
+	padding: 0;	
+}
+.headeryazi b{
+	font-size: 20px;
+	font-family: "Montserrat",bold;
+	font-weight: bold;
+}
+.headeryazi{
+	font-size: 14.77px;
+	font-family: "Montserrat",Light;
+	margin-top: -15px;
+}
+.background{
+	width: 100%;
+	height: 100px;
+}
+
+
+.face{
+	margin-top: 25px;
+}
+h2{
+	cursor: default;
+}
+.background h2{
+	color:white;
+	float: right;
+	font-family: "Montserrat",bold;
+	line-height: 100px;
+}
+.liste1,.liste2,.liste3{
+	float: left;
+	margin-right: 15px;
+}
+.liste1 li,.liste2 li,.liste3 li{
+	padding: 0 !important;
+}
+#gir{
+	    margin-top: 1px;
+    margin-bottom: -25px;
+    margin-left: 30px;
+}
+.mobilgir{display: none;}
+.sec #sel6,.sec #sel7,.sec #sel8,.sec #sel9{
+	width: 86px;
+}
+.dil{
+	right: 0;
+	position: absolute;
+	z-index:100;
+	margin-left: 20px;
+}
+.liste1 a,.liste2 a,.liste3 a{
+	font-size: 12px;
+	font-weight: normal;
+}
+.liste1 b,.liste2 b,.liste3 b{
+	margin-left: 5px;
+}
+.liste3{
+	float: left;
+}
+.kayitol a,.kayitol a:hover{
+	color: white;
+}
+.acilir .button1{
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #464646;
+    font-family: "Montserrat",regular;
+}
+.acilir .button1:hover{
+	text-decoration: none;
+	color:#ffb500 !important;
+}
+.acilir b{
+	color: #7c7c7c;
+}
+.acilir ul .dropdown-header{
+	font-family: "Montserrat",black;
+	font-size: 13px;
+	color:#7c7c7c !important;
+	cursor: default;
+	margin-left: -20px;
+	font-weight: bold;
+}
+
+
+
+.btn-secondary.active, .btn-secondary:active, 
+.show>.btn-secondary.dropdown-toggle {
+    color: #292b2c;
+    background-color: transparent !important;
+    background-image: none;
+    border:0px !important;
+    }
+.dropdown-header{
+	color:#7c7c7c;
+	font-family: "Montserrat",light;
+	font-weight: bold;
+	font-size: 12px;
+}
+.girisyap .dropdown-header{
+	color:black !important;
+	font-family: "Montserrat",light;
+	font-size: 14px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle {
+    color: #292b2c;
+    background-color: transparent !important;
+    background-image: none;
+    border-color: white !important;
+}
+.eleman a:hover{
+	color:#ef4036 !important;
+}
+.eleman{
+	line-height:19px;
+}
+.eleman li{
+	margin-bottom: -5px;
+}
+.eleman{
+	margin-bottom: 23px;
+}
+.sol_menu{
+	width: 540px;
+    border-radius: 0px;
+
+    opacity: 0.98;
+    margin-top: 17px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 46px;
+}
+
+.girisyap{
+	text-align: center;
+	margin: auto;
+	padding: 0 !important;
+}
+.g {
+
+	margin-bottom: 20px;
+	width: 260px;
+}
+.giris2{
+	text-align: center;
+	cursor: pointer;
+	background-color: #79b42b;
+	width: 260px;
+	border:0px;
+	border-radius: 3px;
+	height: 35px;
+	color: #fff;
+}
+.dropdown-divider{
+	width: 120px !important;
+}
+#grs{
+	margin-top: 10px;
+	margin-bottom: -30px;
+}
+.girisyap li{
+	text-align: center;
+	margin-bottom: 1px;
+	padding-right: 0px;
+}
+.kayitol{
+	background-color: #ef4036;
+	border:0px;
+	border-radius: 5px;
+	width: 100px;
+	cursor: pointer;
+	height: 36px; 
+	margin-left: -100px;
+	margin-top: -28px;
+	text-align: center;
+	padding-top: 8px; 
+	font-size: 14px; 
+	font-weight: bold;
+}
+.kayitol a{
+	color: white !important;
+}
+.yada{
+	color:#919191;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.girisyap input{
+	font-family: "Montserrat",light;
+    padding-left: 12px;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.dropdown-menu img{
+	margin-bottom: 16px;
+	cursor: pointer;
+}
+.ekayit{
+	cursor: pointer;
+	font-family: "Montserrat",light;
+	font-size: 11.14px;
+	color: #43a1db;
+}
+.hatirla{
+	color:#b6b6b6;
+	font-size: 13px;
+	font-family: "Montserrat",light;
+	margin-top: 10px;
+}
+.hatirla input{
+	margin-right: 2px;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+header ul{
+	list-style:none;
+}
+header nav ul li{
+	display: inline-block;
+}
+header nav{
+	float: right;
+}
+
+.dil ul {
+	background-color: #f3f3f3;
+    min-width:115px;
+    margin-left: 30px;
+    height: 40px;
+    margin-top: -2px;
+    padding-top: 1px;
+    cursor: pointer;
+    padding-left: 15px;
+}
+.dil button{
+	 background-color: transparent;
+	 margin-top: -4px;
+	 cursor: pointer;
+	 border:0px;
+	 margin-left: 28px;
+}
+.dil ul img{
+	margin-top: 10px;
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0 !important; 
+    box-shadow: 0 0 0 0 !important; 
+}
+
+.dropdown-toggle{
+	border:0px !important;
+	outline:none !important;
+	width:100px !important;
+}
+*{
+	outline: :none;
+}
+
+a{
+	cursor: default;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+.logo{
+
+	float: right;
+	height: 150px;
+	width:850px;
+	position:absolute;
+	z-index: 999;
+}
+.logoarka{
+	width:100%;
+	height:auto;
+	z-index: 999;
+	margin-top: -32px;
+	position:absolute;
+	margin-left: -150px; 
+}
+.alt{
+	min-height: 50px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 60px;
+    margin-top: -128px;
+    float: right;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.eleman li{
+	display: block;
+}
+.backgroundetay,.backgroundetay2{
+	background-color: #ffb500;
+    width: 100%;
+    margin-top: -60px;
+    cursor: default;
+    height: 64px;
+    padding-top: 46px;
+    padding-bottom: 40px;
+}
+.sag_menu{
+	background-color: #f3f3f3;
+	width: 320px;
+	padding-top: 25px !important;
+	opacity: 1;
+	padding-left: 30px;
+	box-shadow:0 0 20px -9px black;
+	padding-bottom: 12px !important;
+	padding-right: 25px;
+	margin-left: 455px;
+	margin-top: 17px;
+}
+.alt ul ul a
+{
+	font-size: 12px;
+	color:#b6b6b6;
+	font-weight: normal;
+}
+.alt ul ul a:hover{
+	color:#b6b6b6;
+}
+#k-giris,#k-giris2{
+	background-color: #9ccb3b;
+	border:0px;
+	width: 100px;
+	height: 36px; 
+	color: #fff;
+	cursor: pointer;
+	margin-top: -20px;
+	padding:10px; 
+	font-size: 14px; 
+	font-weight: bold;
+}
+
+.alt li{
+	padding-right:35px;
+}
+.acilir nav{
+	line-height: 5px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}
+header a{
+	cursor: default;
+	text-decoration: none;
+	font-size: 14px;
+	color:#464646;
+	font-family: "Montserrat",regular;
+}
+.alt a:hover{
+	text-decoration: none;
+	color:#ffb500;
+}
+html{
+	min-height: 100%;
+}
+header a:visited{
+	color: #464646;
+	text-decoration: none;
+}
+.background{
+	margin-top: -60px;
+	cursor: default;
+	background-size: cover;
+}
+.acilir2 button{
+	background-color: #9ccb3b;
+	border-radius: 9px;
+	border:0px;
+	color:#fff;
+	width: 100px;
+	font-family: "Montserrat" ,regular;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 20px 10px 20px;
+	margin-top: -12px;
+}
+.ust{
+	background-color: #f3f3f3;
+	width:100%;
+	height:40px;
+	position:absolute;
+	z-index:-2;
+
+	}
+	.logom{
+	float: right;
+}
+	.telno,.dil{
+		padding-top: 5px;
+	}
+	.telno span,.dil span{
+	color:#8b8c8d;
+	font-family: "Montserrat",Regular;
+	font-size: 12px;
+	margin-right: 10px;
+	margin-left: 5px;
+	}
+/* header bitis */
+/*index */
+.mobil{
+	margin-bottom: 190px;
+}
+.otelresmi{
+	width: 100%;
+}
+.ortaformm{
+	position: absolute;
+	background-color: #fff;
+	margin-top: 10px;
+	width: 100%;
+	margin-left: -15px;
+	box-shadow: 0 0 20px -10px gray;
+	padding-left: 40px;
+	padding-top: 15px;
+}
+.satinal{
+	width: 209px;
+	height: 59px;
+	background-color: #ff006c;
+	text-align: center;
+	margin-top:-315px;
+	cursor: pointer;
+	position: absolute;
+	border-radius: 10px;
+}
+#msbir{
+	display: none;
+}
+.headercontainer{
+	z-index: 10;
+}
+.otelacikla a:hover,.otelacikla a:visited,.otelacikla a{
+	color: #b6b6b6;
+	font-family: "Montserrat",Regular;
+	font-size: 13px;
+	text-decoration: none;
+}
+.ucgen{
+	width: 10px;
+	height: auto;
+	border-style: solid;
+	border-width: 90px 70px 0 0;
+	border-color: #51964e transparent transparent transparent;
+	margin-left: -60px;
+}
+.bxslider img{
+	width: 100%;
+	height: auto;
+}
+.orta3 img{
+	margin-bottom: 15px;
+}
+.musteri{
+	color: white;
+	font-size: 24px;
+	font-family: "Montserrat",Regular;
+}
+
+.degerlendirme div div  div a:hover b{
+	color:#ffb700;
+	text-decoration: none;
+}
+.degerlendirme div div  div a{
+	color:black;
+	text-decoration: none;
+}
+.degerlendirme{
+	padding-top: 74px;
+	padding-bottom: 74px;
+}
+.degerlendirme div div div{
+	font-family: 'Montserrat',light;
+	font-weight: normal;
+	font-size: 15px;"
+}
+.degerlendirme hr{
+	margin-top: 10px; 
+	width: 100%;
+ }
+ 
+.fazla1{
+	background-color: #1b273d;
+	border-radius: 15px;
+    border:2px solid #ffb500;
+    width: 186px;
+    height: 46px;
+    margin: auto;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Montserrat',light;
+    font-size: 13px;
+    margin-top: 90px;
+    padding-top: 10px;
+}
+.fazla1 a{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+}
+.satinal a{
+	cursor: pointer;
+	line-height: 59px;
+	color: white;
+	font-family: "Montserrat",Regular;
+	font-size: 17px;
+
+}
+
+.orta3 hr{
+	margin: auto;
+	text-align: center;
+	width: 108px;
+	height: 1px;
+	background-color: #ffb600;
+	margin-bottom: 83px;
+}
+.otelara{
+	background-color: #ffb500;
+	border-radius: 10px;
+	border:0px;
+	width: 120px;
+	cursor: pointer;
+	height: 40px;
+	font-family: "Montserrat",bold;
+	font-size: 15px;
+	float: right;
+	margin-left: 22px;
+	color:#fff;
+}
+.otelaram{
+	background-color: #ffb500;
+	border-radius: 10px;
+	border:0px;
+	width: 100%;
+	cursor: pointer;
+	height: 40px;
+	font-family: "Montserrat",bold;
+	font-size: 15px;
+	float: right;
+	margin-right: 20px;
+	color:#fff;
+}
+
+.oteller{
+	margin-top: 27px;
+	color: black;
+	font-size: 16px;
+	font-family: "Montserrat",Regular;
+}
+.orta3{
+	padding-bottom: 90px;
+	clear:both;
+	text-align:center;
+	background-size: cover;
+	padding-top: 68px;
+	cursor: default;
+	color:white;
+	font-size: 24px;
+	font-family: "Montserrat",Regular;
+}
+.orta2{
+	cursor: default;
+	margin-top:30px;
+	padding-bottom: 30px;
+}
+.ortakisim{
+	margin-top: -220px;
+	margin-left: 25px;
+	
+}
+.ortakisimm{
+	margin-top: -50px;
+}
+#sel1,#sel2,#sel3,#sel1-2,#sel2-2,#sel3-2,
+#sel4,#sel5,#sel6,#sel7,#sel8,#sel9,#sel10,
+#sel11,#sel12,#sel13,#sel14{
+	margin-top: -2px;
+    width: 46px;
+    height: 22px;
+    padding: 0px;
+    font-size: 12px;
+}
+.orta2 span{
+	color: #999999;
+	font-size: 13px;
+	font-family: "Montserrat",Regular;
+}
+.otelarama{
+
+	margin-bottom: -8px;
+	border-radius: 10px;
+	border:1px solid #dedede;
+	cursor: default;
+	height: 35px;
+	float: left;
+	padding-left: 35px;
+}
+.otelaramam{
+	margin-bottom: -8px;
+	border-radius: 10px;
+	border:1px solid #dedede;
+	cursor: default;
+	width: 100%;
+	margin-left: -20px;
+	height: 31px;
+	float: left;
+	padding-left: 35px;
+}
+.oda, .kisi,.cocuk{
+	float: left;
+	color:#a7a7a7;
+	margin-top: 8px;
+	margin-left: 8px;
+	margin-right: 2px;
+	font-size: 15px;
+	font-family: "Montserrat",light;
+}
+.gidis,.gelis{
+	padding-left: 38px;
+    margin-bottom: -8px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: white !important;
+    border: 1px solid #dedede;
+    height: 35px;
+    float: left;
+}
+.gidism,.gelism{
+	padding-left: 38px;
+	margin-top: 15px;
+	margin-left: -20px;
+	width: 100%;
+	border-radius: 10px;
+	border:1px solid #dedede;
+	height: 31px;
+	float: left;
+}
+.ortaform input{
+	margin-right: 3px;
+}
+
+.satinal p{
+	color: white;
+    font-family: "Montserrat",black;
+    font-size: 26px;
+    margin-left: -88px;
+    margin-right: -88px;
+    font-weight: bold;
+}
+.mmobil{
+	display: none;
+}
+.gidisbg,.gelisbg{
+        height: 35px;
+    border-radius: 10px;
+    float: left;
+}
+.secenek{
+	margin-top: 5px;
+	float: left;
+	width: 42px;
+}
+.ortaform{
+	position: absolute;
+	background-color: #fff;
+	margin-top: -6px;
+	width: 97.5%;
+	margin-left: -25px;
+	border-radius: 15px;
+	box-shadow: 0 0 20px -5px black;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.bosluk{
+	 height:40px;
+	 clear:both;
+}
+.arkakisim{
+	display:none;
+	position: absolute;
+	width: 89.5%;
+	margin-left: 1px;
+	bottom: 0;
+	top: 0;
+	z-index: 0;	
+	background: rgba(241,231,103,0);
+	background: -moz-linear-gradient(top, rgba(241,231,103,0) 0%, rgba(247,178,14,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,231,103,0)), color-stop(100%, rgba(247,178,14,1)));
+	background: -webkit-linear-gradient(top, rgba(241,231,103,0) 0%, rgba(247,178,14,1) 100%);
+	background: -o-linear-gradient(top, rgba(241,231,103,0) 0%, rgba(247,178,14,1) 100%);
+	background: -ms-linear-gradient(top, rgba(241,231,103,0) 0%, rgba(247,178,14,1) 100%);
+	background: linear-gradient(to bottom, rgba(241,231,103,0) 0%, rgba(247,178,14,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#f7b20e', GradientType=0 );	
+	}
+.ust_zemin:hover .arkakisim{
+	display: inherit;
+
+}
+.ust_zemin:hover .altust {
+	font-size: 35px;
+	font-family: "Montserrat",ExtraBold;
+	font-weight: bold;
+	position: relative;
+	z-index: 999;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+}
+.orta3 a:hover,.orta3 a:visited{
+	text-decoration: none;
+	color: white;
+}
+.ust_zemin:hover .otelsayi{
+	font-size: 15px;
+	z-index: 999;
+	position: relative;
+}
+.altust{
+	font-size: 30px;
+	font-family: "Montserrat",bold;
+	font-weight: bold;
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+	display: inline;
+}
+.otelsayi{
+	font-size: 12px;
+	margin-top: 60px;
+}
+
+.ust_zemin{
+	padding-top: 100px;
+	height: 270px;
+	width:100%;
+}
+.arkakisim{
+	line-height: 250px;
+}
+/*index bitis */
+/*Footer */ 
+#indir{
+	font-family: "Montserrat",Light;
+	font-size: 30px;
+	cursor: default;
+	margin-top: 110px;
+	color: #1b273d;
+}
+.footerarka{
+	background-color: #51964e;
+}
+.soft{
+	margin-right:30px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+.triimg{
+	position: absolute;
+	margin-top: -65px;
+	margin-left: -110px;
+}
+.social i{
+	color: #a4a9b1 !important;
+	margin-bottom: 30px;
+	font-size: 21px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+.social i:hover{
+	color: white !important;
+}
+.ikitelefon{
+	margin-top: 30px;
+}
+.kart{
+	margin-right: 15px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+.tri{
+	width: 100%;height: auto;
+}
+.partner{
+	background-color: #d69b12;
+	border-radius: 15px;
+	color:#1b273d;
+	font-size: 15px;
+	width: 170px;
+	padding-left:26px;
+	cursor: pointer;
+	padding-right: 26px;
+	height: 26px;
+	font-weight: bold;
+	font-family: "Arial",bold;
+	border:0px;
+	margin-top: 5px;
+}
+.enalt{
+	line-height: 90px;
+}
+.enalt2 span{
+	font-family: "Montserrat",Regular;
+	font-size: 13px;
+	color:#767d8c;
+	margin-left: -5px;
+}
+.enalt2{
+	bottom: 0;
+	background-color: #f4f4f4;
+	width: 100%;
+	line-height: 80px;
+	cursor: default;
+}
+#air{
+	margin-left: -20px;
+}
+.enalt{
+	background-color: #252f43;
+}
+.orta6 li{
+	list-style-type:none;
+	padding-bottom: 5px;
+}
+.orta6{
+	cursor: default;
+	background-color: #1b273d;
+	padding-top: 45px;
+}
+.orta6 p{
+	color:#646b7b;
+}
+.orta6-2 a, .orta6-3 a{
+	color:#9ca2aa;
+	font-size: 15px;
+}
+.orta6-2 a:hover, .orta6-3 a:hover{
+	color:#ffb700;
+}
+
+.orta6-4 {
+	cursor: default;
+	color:#646b7b;
+}
+.orta6 i{
+	float: left;
+	color: #384258;
+	margin-top: 4px;
+	margin-right: 14px;
+}
+.orta6-4 img{
+	float: left;
+	margin-top: 8px;
+	clear: both;
+	margin-left: 10px;
+	margin-right:10px;
+}
+.orta6-2 a:hover,.orta6-3 a:hover{
+	color:#d69b12;
+}
+.orta6-2 li,.orta6-3 li{
+	color:#a4a9b1;
+	white-space: nowrap;
+	margin-left: -5px;
+}
+.orta6-3 li{
+	margin-left: 20px;
+}
+.orta6-5 {
+	color:#5f6572;
+}
+.orta4{
+	clear:both;
+	background-color:#252f43;
+	width: 100%;
+	color: white;
+	text-align: center;
+	height:290px;
+}
+.orta4 .bx-wrapper .bx-controls-direction a {
+	display: none;
+}
+.orta4 span{
+	margin-right:10px;
+	margin-bottom: 5px;
+}
+.orta4 p{
+	color: #ffb600;
+}
+.orta4{
+	cursor: default;
+	padding-top: 40px;
+	font-size: 15px;
+	font-family: "Montserrat",regular;
+}
+.orta4 li{
+	font-weight: normal;
+	margin-right: 5px;
+	background-color:#252f43 ;
+}
+.orta4 i{
+	color: white;
+}
+#app{
+		margin-left: 80px;
+	    margin-top: 90px;
+}
+.ustapp{
+	margin-bottom: 20px;
+	margin-right: -5px;
+}
+#app img{
+	cursor: pointer;
+}
+/*footer bitis */
+/*otel detay */
+.sayfa .bx-wrapper{ 
+	margin-bottom: 0px; 
+}
+.nav-tabs .nav-link{
+	cursor: pointer;
+}
+.sayfa{
+	margin-top: 65px;
+	margin-bottom: 55px;
+}
+.otelbaslik{
+	font-family: "Montserrat",Light;
+    font-size: 28px;
+    margin-bottom: -2px;
+    color: #252f43;
+    margin-top: -10px;
+    cursor: default;
+
+}
+.konum{
+	margin-right:5px;
+}
+.konum2{
+	font-family: "Montserrat",Light;
+	color:#252f43;
+	cursor: default;
+	font-size: 14px;
+
+}
+.harita,.mharita{
+	float: right;
+	margin-top: -4px;
+}
+.harita button,.mharita button{
+	height: 53px;
+    background-color: #91c71e;
+    border: 0px;
+    margin-top: -100px;
+    color: white;
+    cursor: pointer;
+    width: 148px;
+    font-weight: bold;
+    font-family: "Montserrat",bold;
+    font-size: 11.41px;
+}
+.otelalt{
+	background-color: #eaeaea;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.otelalt2,.mobilotelalt2{
+border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 27px;
+    padding-top: 25px;
+    background-color: #fcb140;
+    height: 124px;
+    padding-right: 27px;
+    padding-bottom: 110px;
+}
+.mobilotelalt2{
+	height: 200px !important
+}
+.mobilotelalt2 .gelis,.mobilotelalt2 .gidis{
+	width: 100% !important;
+
+}
+.mobilotelalt2 .gidisbg,.mobilotelalt2 .gelisbg{
+	margin-right: 0px !important;
+}
+.mobilotelalt2 .otelarama2{
+	width: 250px !important;
+	margin-left: -15px;
+}
+
+.otelalt2 label,.mobilotelalt2 label{
+	margin-top: 10px;
+	color:#fff;
+	font-family: "Montserrat",light;
+}
+.otel1{
+
+	width: 100%;
+}
+.mobilotelalt2 .otelarama2{
+	    background-color: white !important;
+    height: 35px;
+    float: left;
+    margin-right: 28px;
+    border-radius: 10px;
+}
+.mobilradisson{
+	height: 30px !important;
+	margin-bottom: 10px;
+}
+.secenek2{
+	margin-top: 10px;
+	float: left;
+	width: 42px;
+	margin-right: 18px;
+}
+.oda1,.kisi1,.cocuk1{
+	color: white;
+	font-family: "Montserrat",Light;
+	font-size: 15px;
+	margin-top: 17px;
+	margin-right: 2px;
+	float: left;
+}
+.otelara2{
+background-color: #a96600;
+    border: 0px;
+    padding: 7px 28px 7px 28px;
+    color: #fff;
+    float: right;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 7px;
+    border-radius: 10px;
+    font-family: "Montserrat",bold;
+    font-size: 15px;
+    font-weight: bold;
+}
+.odamenu .nav-tabs .nav-link {
+    background-color: #f8f8f8 !important;
+    margin-right: 5px;
+    margin-top: 35px;
+    width: 142px;
+    text-align: center;
+    color: black !important;
+    font-family: "Montserrat",Regular;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 0px !important;
+    border: 0px !important;
+}
+.odamenu a{
+	cursor: default;
+	color: #252f43;
+	text-decoration: none;
+}
+.odamenu .nav-tabs .nav-link.active {
+    color: white !important;
+    margin-top: 35px;
+    background-color: #99ce44 !important;
+    margin-right: 5px !important;
+    border-radius: 0px !important;
+    width: 142px;
+    text-align: center;
+    font-family: "Montserrat",Regular;
+    font-size: 13px;
+    font-weight: bold;
+    border: 0px !important;
+}
+.odaayrinti1 div div div,.odaayrinti2 div div div,.odaayrinti3 div div div {
+ 	float: right;
+ 	margin-left: 6px;
+ 	padding-top: 10px;
+}
+.konuk{
+	font-family: "Montserrat",Light;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.odaayrinti1,.odaayrinti2,.odaayrinti3{
+	position: relative;
+}
+.odaayrintii {
+	font-size: 10px;
+}
+.olanakk{
+	margin-top: 40px; 
+}
+.odalar2{
+	margin-left: -5px;
+	margin-top: -10px;
+}
+
+
+.odaayrinti1, .odaayrinti2,.odaayrinti3{
+	background-color: #f8f8f8;
+	cursor: default;
+	margin-top: 5px;
+	margin-bottom: 4px;
+}
+.detay{
+	width: 500px;
+}
+
+.maxkisi,.otelaltbaslik{
+	font-size:11px;
+	font-family: "Montserrat",Light;
+}
+.odaayrintii{
+	font-family: "Montserrat",Light;
+}
+.olanak1{
+	margin-right: -16px;
+	margin-top: 5px;
+}
+.gece,.gece1{
+	font-family: "Montserrat", Regular;
+	font-size: 12px;
+	color:#6c6c6c;
+	float: right;
+}
+.gece{
+	margin-right: -5px;
+	margin-top: -4px;
+}
+.gece1{
+	margin-right: -16px;
+	margin-top: 20px;
+	margin-bottom: -10px;
+}
+.tl1{
+	margin-top: 5px;
+    margin-left: 50px;
+    margin-right: -16px;
+}
+.odasec,.rezervasyon1{
+	background-color: #99ce44;
+	width: 144px;
+	height: 33px;
+	font-family: "Montserrat",SemiBold;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	border:0px;
+	color:white;
+	border-radius: 10px;
+	color: #fff;
+	margin-top:-10px;
+}
+.mobilodasec{
+	background-color: #99ce44;
+	width: 100%;
+	height: 33px;
+	font-family: "Montserrat",SemiBold;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	margin-right: 10px !important;
+	border:0px;
+	color:white;
+	border-radius: 10px;
+	color: #fff;
+}
+.mobilodasec a{
+	color: white;
+}
+.rezervasyonmobil{
+	background-color: #99ce44;
+	width: 100%;
+	margin-right: 5px !important;
+	height: 33px;
+	font-family: "Montserrat",SemiBold;
+	font-size: 12px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	border:0px;
+	color:white;
+	border-radius: 10px;
+	color: #fff;
+}
+.rezervasyonmobil a,.rezervasyonmobil a:hover,.rezervasyonmobil a:visited{
+	color: white;
+	text-decoration: none;
+}
+.rezervasyon1{
+	margin-right: -18px;
+}
+.odasec{
+	margin-right: -15px;
+}
+.odasec a,.rezervasyon1 a{
+	color: white;
+	cursor: default;
+	text-decoration: none;
+}
+.otelhakkinda div{
+	margin-top: 38px;
+    background-color: #464646;
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    font-size: 17px;
+    font-family: "Montserrat", Regular;
+}
+.otelhakkinda2{
+	background-color: #eaeaea;
+	padding-top: 30px;
+	cursor: default;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 20px;
+}
+.benzeri{
+	margin-top: 33px;
+    background-color: #464646;
+    color: #fff;
+    cursor: default;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 4px;
+    font-size: 17px;
+    font-family: "Montserrat", Regular;
+}
+.yorum1{
+	cursor: default;
+	color: #028bce;
+	font-size: 15px;
+	font-family: "Montserrat",Regular
+}
+.otelaciklama{
+	color: #888888;
+	font-family: "Montserrat" ,Light;
+	font-size: 13px;
+	cursor: default;
+}
+.otelaciklama2 div{
+	margin-bottom: 35px;
+	cursor: pointer;
+}
+.otelaciklama2{
+	font-family: "Montserrat" ,Light;
+	font-size: 13px;
+	cursor: pointer;
+	color: #888888;
+}
+.fazla{
+	width: 100%;
+	padding: 10px;
+	background-color: #ffb500;
+	border:0px;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Montserrat",bold;
+}
+.fazla a{
+	color: white;
+}
+
+.benzer1{
+	margin-bottom: 12px;
+}
+.benzer1 img{
+	width: 100%;
+	height: 198px;
+}
+.ucret{
+	background-color: #8dc556;
+	width: 62px;
+	position: absolute;
+	height: 31px;
+	right: 0px;
+	opacity: 0.98;
+	cursor: default;
+	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	font-family: "Montserrat",black;
+	font-size: 19.04px;
+	font-weight: bold;
+	padding: 4px;
+}
+.oteladi{
+	height: 42px;
+	background-color: #ffbc17;
+	opacity: 0.98;
+	cursor: default;
+	margin-top: -42px;
+	margin-bottom: -7px;
+	padding-left: 20px;
+	font-family: "Montserrat",bold;
+	font-size: 12px;
+	font-weight: bold;
+	color:#464646;
+	padding-top: 12px;
+}
+
+/*oteldetay bitis */
+/*otel listele */
+.stoda{
+    margin-top: 40px;
+    margin-left: 50px !important;
+    margin-right: -10px;
+    font-size: 10px;
+    font-family: "Montserrat",bold;
+    color: #959595;
+}
+.yorum{
+	float: right;
+	margin-top: -60px;
+	margin-right: -15px;
+} 
+.puan{
+	margin-bottom: 4px;
+	background-color: #50964e;
+	height: 53px;
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+	font-size:17px;
+	font-family: "Montserrat", Reguler;
+}
+.tripadvisor{
+	border:1px solid #eaeaea;
+	border-radius: 15px;
+	margin-bottom: 15px;
+	cursor: default;
+	padding-bottom: 37px;
+}
+.tripadvisor img{
+	margin-top: -5px;
+}
+
+.fiyat2,.bolge2,.zincir2,.odeme2,.oteltipi2,.hizmetler2,.ogun2{
+	background-color: #464646;
+	height: 53px;
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+	font-size:17px;
+	margin-bottom: 4px;
+	font-family: "Montserrat", Reguler;
+}
+.fiyat,.odeme,.ogun,.zincir,.bolge{
+	cursor: default;
+	border:1px solid #eaeaea;
+	border-radius: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 37px;
+	
+}
+.liste{
+	margin-right: 10px;
+	margin-top: 56px;
+	margin-bottom: 150px;
+}
+.oteltipi,.hizmetler{
+	margin-bottom: 15px;
+	border:1px solid #eaeaea;
+	border-radius: 15px;
+	cursor: default;
+	padding-bottom: 37px;
+}
+
+.otellistesi input[type=checkbox]:after, .liste input[type=checkbox]:after {
+    content: " ";
+    background-color: transparent;
+    display: inline-block;
+    visibility: visible;
+}
+.otellistesi input[type=checkbox]:checked:after,.liste input[type=checkbox]:checked:after {
+ 	background-color: #ffb500;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border-radius: 2px;
+    visibility: visible;
+    margin-bottom: 20px;
+
+}
+.select{
+	margin-top:20px;
+}
+.check{
+	padding-left: 18px;
+	padding-top: 38px;
+}
+.select:selected{
+	font-weight: bold;
+}
+.check input {
+	margin-right: 10px;
+}
+.selectpicker{
+	border:0px;
+	width: 190px; 
+	margin-top: -5px;
+	height: 20px;
+
+}
+.selectpicker option{
+	margin-bottom: 8px;
+}
+.sec{
+	float: right;margin-top: -20px;
+}
+
+.sirali{
+	margin-top: 11px;
+	border:1px solid #eaeaea;
+	padding-left: 20px;
+	padding-top:12px;
+	padding-bottom:18px;
+	cursor: default;
+	padding-right: 12px;
+}
+.sirali select{
+	margin-left: 20px;
+	border-color:#eaeaea;
+	width: 80px;
+	height: 30px;
+	font-size: 10px;
+	font-family: "Montserrat",bold;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 3px;
+}
+.sirali div{
+	color:#8b8b8b;
+	font-family: "Montserrat",light;
+	font-size: 13px;
+}
+
+.yildiz{
+	margin-top: 5px;
+}
+.tl{
+		margin-top: 5px;
+    margin-right: -42px;
+    margin-bottom: -5px;
+}
+.benzerotel{
+	margin-top: -5px;
+}
+/*otellistele bitis */
+/*hakkımızda */
+.biz{
+	margin-bottom: 25px;
+	margin-top: 103px;
+	font-weight: bold;
+}
+.hakkimizdamenu{
+	margin-top: 103px;
+	font-size: 14px;
+	color:#464646;
+	list-style: none;
+	font-family: "Montserrat",light;
+}
+.menum{
+	list-style: none;
+}
+.menu{
+	padding-top: 9px;
+	background-color: #dadada;
+	font-weight: bold;
+	margin-bottom: 3px;
+	padding-bottom: 9px;
+	padding-left: 20px;
+	width: 100%;
+	height: auto;
+	list-style: none;
+}
+.hakkimizdamenu ul ul li{
+	padding-top: 9px;
+	padding-bottom: 9px;
+	padding-left: 46px;
+	padding-right: 46px;
+	list-style: none;
+	margin-bottom: 3px;
+	list-style-type: none;
+	background-color: #efefef;
+}
+.hakkimizdamenu a:visited{
+	color:#464646;
+}
+.hakkimizdamenu a:link{
+	color:#464646;
+}
+
+.hakkimizdamenu ul li:hover ul {
+  display:block
+}
+.hakkimizdamenu .menu:hover{
+	background-color:#ffc200;
+	color: #464646;
+}
+.hakkimizdamenu ul ul li:hover{
+	background-color:#ffc200;
+}
+
+
+.alan{
+	margin-bottom: 25px;
+}
+.kimiz{
+	cursor: default;
+	font-size: 17px;
+}
+.uzman{
+	cursor: default;
+	font-size: 17px; 
+	padding-bottom: 100px;
+}
+/*hakkımızda bitis */
+.iletisim{
+	margin-bottom: 25px;
+	margin-top: 103px;
+	font-weight: bold;
+}
+.sayi{
+	float: right;
+	font-family: "Montserrat",Regular;
+	margin-top: -80px;
+	font-size: 52.21px;
+	color: #68a453;
+}
+.iletisimsayfa{
+	margin-bottom: 110px;
+}
+.olanak2{
+	height: 22px;
+	margin-top: -22px;
+	margin-right: -170px;
+	margin-bottom: 15px;
+}
+
+.olanak2 hr{
+	width: 375px;
+    margin-top: -11px;
+    margin-left: 108px;
+}
+
+
+.odalar{
+	margin-left: -20px;
+	margin-top: -10px;
+}
+
+.nopadding{
+	padding: 0px;
+	margin:0px;
+}
+
+/*içerik*/
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #888888 !important;
+    background-color: white !important;
+    margin-right: 5px !important;
+    border-radius: 10px;
+    font-weight: bold;
+    width: 90px;
+    text-align: center;
+    border: 0px !important;
+}
+.nav-tabs .nav-link {
+	color: white;
+    width: 90px;
+    text-align: center;
+    background-color: #9ccb3b;
+    margin-right: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 0px !important;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+input:focus, textarea:focus, select:focus {
+	 outline:none 
+	}
+
+#sbir .bx-wrapper .bx-controls-auto,#sbir .bx-wrapper .bx-pager,#msbir .bx-wrapper .bx-controls-auto,#msbir .bx-wrapper .bx-pager {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.denden{
+	float: right;
+	margin-top: 30px;
+}
+.dende1{
+	margin-top: 20px;
+}
+
+
+.bxslider{
+	width: 100%;
+
+	height: auto;
+}
+
+#k-giris .dropdown-toggle::after,#k-giris2 .dropdown-toggle::after {
+	display: none !important;
+}
+.filtre .tripadvisor input[type=checkbox]:checked:after,.tripadvisor input[type=checkbox]:checked:after {
+    background-color: #50964e;
+}
+.otelarama2{
+    margin-bottom: -8px;
+    border-radius: 10px;
+    background-color: white !important;
+    width: 100%;
+    border: 0px;
+    height: 35px;
+    float: left;
+    padding-left: 35px;
+}
+.nav-tabs {
+   border:0px;
+   clear: both;
+}
+.tl,.tl1{
+	font-size: 27.61px;
+	float: right;
+	font-weight: bold;
+	font-family: "Montserrat",SemiBold;	
+}
+
+.headeryazi{
+	float: right;
+}
+.oteladi{
+	width: 100%;
+}
+.bx-wrapper .bx-controls-direction a {
+	z-index:1 !important;
+}
+.alt .nav li{
+	padding:0px 0px 0px 20px;
+	margin-left: 5px;
+	text-decoration: none;
+}
+#mobilotel .bx-wrapper .bx-controls-auto, .bx-wrapper .bx-pager {
+	bottom: 10px !important;
+}
+
+.mobilotelalt2{
+	display: none;
+}
+.ortam{
+	display: none;
+}
+.siralamam{
+	border:1px solid #292b2c; width: 100%;height: 50px;
+}
+.siralamam a{
+	color: #292b2c;
+}
+button.close{
+	margin-left: -30px;
+}
+.siralamam a:visited{
+	color: #292b2c;
+	text-decoration: none;
+}
+.nav-link{
+	overflow-wrap: normal;
+}
+.mobilselectsec{
+	display: none;
+}
+.rezervasyonmobil{
+	display: none;
+}
+.filtremobil .btn-primary{
+	background-color: #f3f3f3 !important;
+	color: #292b2c;
+	border:0px;
+	font-family: "Montserrat",Regular;
+	font-size: 15px;
+	width: 100%;
+}
+.mobilodasec{
+	display: none;
+}
+.orta6-2 a:hover i, .orta6-3 a:hover i{
+	color:#d69b12;
+}
+#mobilotel{
+	display: none;
+	margin-top: 30px;
+}
+.otellistesi{
+	margin-top: -100px;
+}
+.logo{
+	display: none;
+}
+.orta4 .bx-wrapper .bx-pager{
+	bottom: -30px !important;
+}
+.filtremobil{
+	display: none;
+	margin-bottom: -150px;
+}
+.modal-backdrop.show {
+	z-index: 1 ;
+}
+.resimler a:visited{
+	color:white;
+}
+#sbir{ 
+	margin-top:-60px;
+}
+.otelacikla {
+	width: 100%;
+}
+.mharita{
+	display: none;
+}
+.filtremobil{
+	width: 100%;
+	height: 50px;
+}
+.ayrintiortadiv{
+	margin-left: -40px !important;
+}
+/* Harita */
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.Flexible-container iframe,
+.Flexible-container object,
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*Harita Bitiş*/
+
+/*Responsive */
+@media screen and (max-width: 576px) {
+			.siralamam{padding: 10px;text-align: center;margin-bottom: 10px;font-size: 18px;}
+			.filtre{display: none;}
+			.kart{width: 95%;}
+			.enaltrow{margin-right: 0px !important;margin-left: -20px !important;}
+			.mr-auto {margin-top: 50px !important; margin-right: 120px !important;text-align: center;}
+			.mharita{display: inherit !important;}
+			.harita{display: none;}
+			.tl1{margin-top: -40px !important}
+			.mobilotelalt2 .gidis,.mobilotelalt2 .gelis,.mobilotelalt2 .otelarama2{background-position: 3% !important;}
+			.odaayrintii{margin-top: 100px !important;}
+			#mobilotel{display: inherit;}
+			.olanak1{margin-top: 40px;}
+			#m-otel{display: none !important;}
+			.filtremobil{display: inherit !important;}
+			.oda1,.kisi1.,.cocuk1{margin-left: 0px !important}
+			#filtrele,#sirala{width: 100%;}
+			.stoda{margin-top: -40px !important;float: right; margin-right: -90px !important;}
+		    .biz{margin-top: 20px;}
+		    .sirali{display: none;}
+		    .sol{padding-left: 0px;}
+		    .img{margin-left: -15px;}
+		    .sag{padding-right: 0px;}
+		    .oteladi{font-size: 14px !important;}
+		    .menum{margin-top: -85px;}
+		    .iletisim{margin-top: 0px;}
+		    .otelaltbaslik{margin-bottom: 25px;}
+		    .sirali select{width: 30px !important}
+		    .mobilotelalt2 .secenek2{width: 22px !important;}
+		    .mobilotelalt2 .oda1,.mobilotelalt2 .kisi1,.mobilotelalt2 .cocuk1{margin-left: 35px !important;}
+		    .orta6-3,.orta6-2,.orta6-4 {margin-top: 30px;}
+		    .tl{margin-right: 20px !important;margin-top: -30px !important}
+		    .odasec{display: none;}
+		    #app{margin-top: 30px !important;margin-left: -30px !important}
+		    .triimg{margin-top: -60px !important;margin-left: -20px}
+		    .odaayrinti1{padding-bottom: 20px !important;}
+			.mobilodasec{display: inherit !important;margin-top: 10px;}
+		    .gece{margin-top: -58px !important;margin-right: 20px !important}
+		    .yorum{float: left !important;margin-top: -30px !important;}
+		    .ucret{width: 82px !important;height: 41px !important;padding-top: 7px !important;font-size: 19px !important;}
+		    .telno{margin-left: 5px !important; margin-right: 18px !important;}
+		    .polo{margin-bottom: 30px;}
+		    .olanak2{float: left !important;margin-bottom: 0px !important;margin-top: -32px !important;}
+		    .backgroundetay{margin-top: 0px;padding-top: 20px;}
+		    .background{margin-top: 0px;}
+		    .backgroundetay2{margin-top: 0px;padding-top: 35px;}
+		    .oda1,.kisi1,.cocuk1{font-size: 10px !important;}
+		    .logo{margin-top: 60px !important;}
+		    .odalar{margin-left: -8px !important;margin-top: 10px !important;}
+    
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  			.telno{margin-left: 10px !important; margin-right: -30px !important;}
+  			.stoda{margin-top: -40px !important;float: right;margin-right: -90px !important;}
+    		.dil{right: 0;}
+    		.mr-auto{margin-right: 200px !important}
+    		.mharita{display: inherit !important;}
+			.harita{display: none;}
+    		.logo{margin-top: 50px !important;}
+  			.sirali{display: none;}
+  			.odalar{margin-left: -10px !important;}
+  			.filtre{display: none;}
+  			.odaayrinti1{padding-top: 20px;}
+  			.tl{margin-top: -30px !important;margin-right: 20px !important;}
+  			.gece{margin-top: -60px;margin-right: 20px;}
+  			.yorum{float: left !important;margin-top: -30px !important}
+  			.mobilotelalt2 .otelarama2,.mobilotelalt2 .gidis,.mobilotelalt2 .gelis{background-position: 2% !important;}
+  			.odasec{display: none;}
+			.mobilodasec{display: inherit !important;margin-top: 10px; margin-bottom: 10px;}
+  			#mobilotel{display: inherit !important;}
+			#m-otel{display: none !important;}
+			.filtremobil{display: inherit !important;}
+  			.backgroundetay{margin-top: 0px;padding-top: 20px;}
+		    .background{margin-top: 0px;}
+		    .backgroundetay2{margin-top: 0px;padding-top: 35px;}
+	  		#footer-tursab{margin-left: 100px;}
+}
+@media screen and (max-width:768){
+		  	#app{padding: 0px !important;}
+		  	.backgroundetay{margin-top: 0px;padding-top: 20px;}
+		    .background{margin-top: 0px;}
+		    .backgroundetay2{margin-top: 0px;padding-top: 35px;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+			.enaltrow{margin-left: -20px !important}
+			.mr-auto{margin-right: 300px !important}
+		  	.triimg{margin-top: -55px !important;width: 210%;margin-left: -90px}
+		  	.orta6-3 a ,.orta6-2 a{font-size: 12px !important;}
+		  	.enalt{line-height: 70px;}
+		  	#app{margin-left: 30px !important;margin-top: 30px !important}
+		  	.odasec{margin-right: -70px !important;margin-top: 5px;width: 124px;}
+		  	.gece{margin-right: -60px;margin-top: 5px;}
+		  	.odalar{margin-top: 70px !important;}
+		  	.tl{margin-top: 15px !important; margin-right: -60px !important;}
+		  	.yorum{float: none !important;    margin-left: 15px;margin-top: 5px !important;width: 180%;}
+		  	.olanak2{margin-right: -120px !important;}
+		  	.dil ul{margin-left: 3px !important;}
+		  	.oteladi{font-size: 8px !important ;padding-top:5px;padding-left:5px;padding-bottom: 5px; height: 25px; margin-top: 0px;}
+		    .stoda{display: none;}
+		    .puan{padding-top: 3px; font-size: 13px;}
+		    .fiyat2, .bolge2, .zincir2, .odeme2, .oteltipi2, .hizmetler2, .ogun2{font-size: 13px;}
+		    .oda1{margin-left: 80px !important}
+		    .mobilselectsec{margin-top: 0px !important;}
+		  	#detayayrinti{margin-left: -20px !important; margin-right: 50px !important;}
+		  	.olanak1{margin-right: -20px;}
+		  	.oteloda{padding: 0px;}
+		  	.check{padding-left: 10px;padding-top: 10px;font-size: 13px;}
+		  	.odaayrinti1{padding-top: 0px !important;padding-left: 0px !important;}
+		  	.mobilselectsec .selectpicker{margin-left: 12px;}
+		  	.gece1{margin-top: 150px !important;margin-right: -30px !important;}
+		  	.tl1{margin-right: -40px !important;font-size: 25px !important}
+		  	.otelhakkinda div{height: 40px;padding-top: 8px; margin-top: 25px;}
+		  	.otelhakkinda2{padding: 10px;}
+		  	.backgroundetay{margin-top: 0px;padding-top: 20px;}
+		  	.background{margin-top: 0px;}
+		  	.backgroundetay2{margin-top: 0px;padding-top: 35px;}
+		  	.space{display: none;}
+		  	.gelis,.gidis{background-position: 5% !important;}
+		  	.otelarama2{background-position: 2% !important;}
+		  	.orta6-4{margin-left: 20px !important;}
+		  	.partner{margin-left: 8px }
+		  	.telno{    margin-right: 380px !important;margin-left: -220px !important;}
+		    .sayi{font-size: 30px !important; margin-top: -25px !important;margin-right: 5px !important;}
+}
+@media (min-width: 576px){
+     		.modal-dialog {max-width: 100% !important;}
+}
+@media screen and (max-width:1200px) {
+		  	.enalt{background-size: 0% !important}
+		  	.oteladi{font-size: 11px;}
+		  	.otelarama2{width: 295px;}
+		  	.alt li{padding-right: 1px;}
+		  	.hakkimizdamenu ul ul li{padding-left: 16px !important}
+		  	.sayi{font-size: 35px;margin-top: -70px;margin-right: -20px;}
+		  	.altust{font-size: 20px;}
+		  	.odalar2{width: 85%;height: 190px;}
+		  	.odaayrinti3{padding-bottom: 0px !important;}
+		  	.tl1{margin-top: 15px !important;margin-left: 20px !important}
+		  	.olanak2 hr{display: none;}
+		  	.detay{display: none !important;}
+		  	#otel{display: inherit;}
+		  	.odalar{width: 99%}
+		  	.olanak2{float: left !important;margin-top: -30px !important;}
+		  	.sag_menu{margin-left: 380px}
+		  	.orta6-4{margin-left: 30px}
+		  	.dil ul{margin-left: 28px;}
+		  	.ust_zemin{width: 100% !important; height: auto !important;}
+		  	.ust_zemin:hover .altust{font-size: 28px !important;}
+		  	.ortam{display: inherit !important; }
+		  	.logom{margin-right: -70px;}
+		  	.enalt2 span{font-size: 10px;}
+		  	.gidism,.gelism,.otelaramam{background-position: 2% !important;}
+		  	.ortakisimm .nav-tabs .nav-link{width: 100% !important;}
+		  	.orta{display: none;}
+		  	.mmobil{display: inherit !important;}
+		  	.telno{    margin-left: 50px;padding-top: 5px;margin-right: -70px;}
+}
+@media screen and (max-width:992px) {
+			.nopadding {padding-left: 20px !important;margin: 0 !important;}
+			.gece1 {float: right ;margin-right:20px ;margin-top: -10px ;}
+			.mr-auto {margin-top: 50px !important;text-align: center;}
+			.mr-auto li{display: block !important;}
+			.ucret{height: 21px;font-size: 15px;padding: 1px;width: 55px;}
+			.space{display: none;}
+			.logo{display: inherit !important; margin-left:0px !important;width: 100%; height: auto;margin-top: 65px;}
+		    .logom{display: none;}
+			.odamenu nav nav-tabs{margin-right: -10px;}
+			.tel_sol{display: none;}
+			.oda1,.kisi1,.cocuk1{margin-left: 2px;font-size: 13px;}
+			.arkakisim{width: 94% !important;}
+			.ortakisimm .nav-tabs .nav-link{width: 120% !important;}
+			.ust{margin-left:-20px;}
+			.olanak1{float: left !important}
+			.logoarka{display: none;}
+			.tl1{margin-top: 0px !important ; margin-right: 15px;}
+			.konuk{font-size: 15px;}
+			#sbir{display: none;}
+			#msbir{display:inherit !important;}
+			.rezervasyonmobil{display: inherit !important;margin-bottom: 10px;margin-top: -20px;}
+			.mmobil{display: inherit !important;}
+			.odamenu{margin-left: 8px;margin-right: -12px;}
+			.partner{width: 140px;padding: 0px;}
+			.button1{margin-bottom: 1px !important;}
+			.mobilotelalt2,.otelalt{width: 99.9% !important; font-size: 12px !important; padding-top: 20px !important;padding-left: 0px !important; padding-right: 0px !important;}
+			.sayi{font-size: 45px;margin-right: 20px;}
+			.mobilotelalt2 .oda1{margin-left: 25px !important}
+			.mobilotelalt2 .secenek2{margin-right: 20px !important;}
+			.otelalt2{display: none;}
+			.secenek2{margin-right: 8px !important;}
+			.secenek{margin-right: 0px;}
+			.orta2 div{margin-bottom: 30px !important;}
+			.degerlendirme{font-size: 11px !important;margin-left: 5%;}
+			.orta6{font-size: 13px !important}
+			.orta3{font-size: 17px !important;}
+			.logoarka{margin-left: -55px !important;}
+			.kayitol{padding-left: 20px !important; width: 110px !important;padding-right: 20px !important; }
+			.enalt2 span{font-size: 11px !important;}
+			.dil{margin-left: -20px;}
+			.orta3 .row{margin-top: -25px !important;}
+			.dropdown-divider{width: 100px !important}
+			.acilir .button1{margin-left: 0px;}
+			.alt ul ul a{font-size: 10px !important; line-height: 5px;}
+			.hakkimizdamenu{font-size: 12px !important;}
+			h2{font-size: 15px !important; font-weight: bold;}
+			.satinal{display: none;}
+			.orta4{padding-left: 20px; padding-right: 20px;}
+			.oteller{margin:auto; text-align: center;}
+			.ikitelefon{margin-left: 20px;}
+			#id,#air{text-align: center;}
+			.otelacikla img{margin-top: 20px !important;}
+			.otelbaslik{font-size: 16px !important;}
+			.iletisimsayfa p{font-size: 13px !important;margin-right: 15px;}
+			#harita,#mharita{width: 100px; height: 40px;}
+			.konum2{font-size: 13px !important;}
+			#indir{font-size: 23px !important; margin-top: -1px !important;padding-top: 30px !important;padding-left: 15px;}
+			.img{width: 75px;}
+			header a{font-size: 12px;}
+			.odamenu li{font-size: 12px !important;}
+			.odamenu a{font-size: 10px;}
+			.modal-footer button{background-color: #9ccb3b !important;color: white;}
+			.otelara2{width: 100% !important; height: 30px !important; font-size: 12px !important;padding: 0 !important;margin-right: 0px !important}
+			.map iframe{width: 97% !important;height: 250px;margin-left: -8px !important;}
+			iframe{width: 359px;height:400px;}
+			.background h2{font-size: 30px !important;text-align: center !important;float: none !important;}
+			.yildiz{font-size: 10px !important;}
+			.odamenu .nav-item {font-size: 15px !important; margin-left: -8px !important; margin-right: 15px;}
+			.nav-item a{font-size: 13px !important;}
+			.liste1,.liste2,.liste3{padding-left: 10px !important;padding-right: 0px !important;}
+			.resimler{margin-bottom: 30px !important;}
+			.odaayrinti1{padding-left: 10px ;margin-left: -5px !important;padding-bottom: 5px;}
+			.navım{margin-top: -60px;}
+			.otelaciklama2 img{margin-top: 20px;}
+			.otelaciklama2 span{font-size: 14px;}
+			.liste{margin-right: 0px !important}
+			.kimiz{font-size: 14px; margin-right: 10px !important;}
+			.uzman{margin-right: 10px !important}
+			.bosluk{height: 20px !important;}
+			.odalar{width: 100%;}
+			.orta4{font-size: 13px !important;}
+			.uzman{font-size: 14px;}
+			.orta2 img{ margin-left:15% !important ;height: 200px; width: 250px; }
+			.headeryazi{float: left !important; margin-left: 10px;}
+			.orta6-3{margin-left: -25px;}
+			.orta6-4{margin-left: -15px;}
+			.gidis,.gelis{background-color: white !important;}
+			#mslider img{height: auto;width: 100%}
+			.selectpicker option{margin-top: 5px;}
+			.mobilselectsec{display: inherit !important;margin-top: 25px;margin-right: 30px !important;margin-left: -30px;}
+			.rezervasyon{margin-top: -50px;margin-left: -150px;}
+			.benzer1 img{height: auto !important;width: 100%;}
+			.harita button,.mharita button{font-size: 10px;}
+			.odalar2{width: 100% !important;margin-left: -15px !important;}
+			.rezervasyon{margin-right: 20px;}
+			.otelarama2{height: 30px !important; padding-left: 30px !important;margin-bottom: 10px !important;margin-left: 0px !important;}
+			.mobilotelalt2 .otelarama2{width: 100% !important}
+			.ortam{display: inherit !important; }
+			.orta{display: none;}
+			.fazla{width: 100%;}
+			.arama{margin-left: 10px; margin-top: -25px;}
+			.oteller{margin-top: 20px !important}
+			.sirali select{font-size:10px !important;height: 30px !important; padding-top:5px !important; padding-left: 1px !important}
+			.radisson{height: 30px !important;margin-right: 7px;}
+			.otelaciklama,.otelaciklama2{font-size: 13px;}
+			.otelarama{font-size: 12px;width: 130px;height: 30px;padding-left: 20px;}
+			.gidis,.gelis{width: 85px !important;height: 30px !important;padding-left: 35px !important;font-size: 12px;margin-bottom: 0px !important}
+			.gelisbg,.gidisbg{height: 30px !important;margin-right: 5px !important;}
+			.ucgen{margin-top: -15px !important;margin-left: -20px !important;}
+			.footerarka{margin-top: -15px !important;}
+			.kisi,.oda,.cocuk{font-size: 12px;margin-left: -20px;}
+			#k-giris,#k-giris2{margin-top: 0px !important;}
+			.enalt{background-size: 0% !important;padding-top: 15px;width:100%; }
+			.selectsec{display: none;}
+			.triimg{margin-top: -70px;}
+			.mobilotelalt2{display: inherit !important	;}
+			.girr{display: none !important;}
+			#sel1,#sel2,#sel3,#sel4,#sel5,#sel14{width: 40px;}
+			.otelhakkinda{width: 100% !important;}
+			.ikitelefon{width: 150px;height: 120px;}
+			#app img{width: 100px;height: 32px;}
+			.odaayrinti1 div div div,.odaayrinti2 div div div,.odaayrinti3 div div div{margin-left: 5px !important; margin-right: -45px;}
+			#map_container iframe{width: 100%; margin-left: -10px;}
+			.modal-header{text-align: center;}
+			.modal-body input{padding:10px;}
+			.alt{    margin-bottom: 10px;margin-top: 60px;}
+		    .ekayit{margin-top: 10px;}
+		    .face{margin-bottom: 10px;}
+		    .odaayrinti3{padding-top: 10px;padding-bottom: 5px;}
+		    #modal-fullscreen .modal-body div{text-align: center;}
+		    .modal-body{padding-top: 40px;}
+			.ust ul{margin-top: 0px !important;margin-left: 18px !important;}
+			.img{margin-bottom: 13px;}
+			.acilir ul .dropdown-header{font-size: 11px;margin-left: 1px;}
+			.sol_menu{min-height: 165px;width: 365px !important;padding-left: 1px !important;margin-right: -135px !important;margin-left: -125px;padding-top: 20px;}
+			.rezervasyon1{display: none;}
+			.nav-tabs .nav-link{width: 105% !important;border-radius: 0px !important;}
+			.odamenu .nav-tabs .nav-link{font-size: 10px !important; padding-left: 2px; }
+}
+@media (min-width: 1200px) { 
+		.gidis,.gelis,.otelara2 {width: 172px !important;}
+ }
+/*responsive bitis */
